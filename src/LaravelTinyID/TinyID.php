@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static string encode(string $value) Encode value to generate a hash.
  * @method static string decode(string $value) Decode a hash to the original value.
  */
-class TinyIDFacade extends Facade
+class TinyID extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
