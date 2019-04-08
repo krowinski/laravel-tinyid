@@ -1,0 +1,42 @@
+{
+  "name": "krowinski/laravel-tinyid",
+  "description": "A TinyID bridge for Laravel",
+  "keywords": [
+    "laravel",
+    "id",
+    "obfuscate",
+    "shortId",
+    "ids",
+    "php"
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=7.1",
+    "illuminate/contracts": "5.8.*",
+    "illuminate/support": "5.8.*",
+    "krowinski/tinyid": "^1.1"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kacper Rowiński",
+      "email": "kacper.rowinski@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "LaravelTinyID\\": "src/LaravelTinyID"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LaravelTinyID\\TinyIDServiceProvider"
+      ],
+      "aliases": {
+        "TinyID": "LaravelTinyID\\TinyIDFacade"
+      }
+    }
+  },
+  "minimum-stability": "stable"
+}
