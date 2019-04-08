@@ -14,7 +14,8 @@
     "php": ">=7.1",
     "illuminate/contracts": "5.8.*",
     "illuminate/support": "5.8.*",
-    "krowinski/tinyid": "^1.1"
+    "krowinski/tinyid": "^1.1",
+    "graham-campbell/manager": "^4.2"
   },
   "license": "MIT",
   "authors": [
