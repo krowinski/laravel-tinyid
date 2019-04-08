@@ -34,7 +34,7 @@
         "LaravelTinyID\\TinyIDServiceProvider"
       ],
       "aliases": {
-        "TinyID": "LaravelTinyID\\TinyIDFacade"
+        "TinyID": "LaravelTinyID\\Facades\\TinyID"
       }
     }
   },
