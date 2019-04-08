@@ -1,10 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace LaravelTinyID;
+namespace LaravelTinyID\Facades;
 
 
 use Illuminate\Support\Facades\Facade;
+use LaravelTinyID\TinyIDServiceProvider;
 
 /**
  * @method static string encode(string $value) Encode value to generate a hash.
