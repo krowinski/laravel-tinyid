@@ -12,7 +12,7 @@ class TinyIDServiceProvider extends ServiceProvider
 
     public function boot(): void
     {
-        $this->mergeConfigFrom($config = __DIR__ . '/config/tinyID.php', self::SERVICE_NAME);
+        $this->mergeConfigFrom($config = __DIR__ . '/../config/tinyID.php', self::SERVICE_NAME);
         if ($this->app->runningInConsole()) {
             $this->publishes([$config => config_path(self::SERVICE_NAME . '.php')], self::SERVICE_NAME);
         }
